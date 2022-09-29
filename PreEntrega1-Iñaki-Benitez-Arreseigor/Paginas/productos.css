@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{background-color: #F3EFCC;
+
+}
+
+.encabezado{
+    background-color: #3D8361;
+    color: #EEF2E6;
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, #829460, #3D8361);
+}
+.lista-encabezado{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    justify-content: space-around;
+    list-style: none;
+}
+.titulo-nombre{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+.titulo-productos{
+    font-size: 60px;
+    display: flex;
+    justify-content: flex-start;
+}
+.photo-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.yerba-1kg{
+    width: 350px;
+    display: flex;
+    justify-content:flex-start;
+    margin-right: 9%;
+}
+.yerba-medio-kg{
+    width: 350px;
+    display: flex;
+    justify-content:flex-start;
+    margin-right: 9%;
+    margin-top: 9%;
+}
+
+.mate-imperial{
+    width: 350px;
+    display: flex;
+    justify-content:flex-start;
+    margin-right: 9%;
+    margin-top: 9%;
+}
+
+.descripcion-yerba-1kg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 250%;
+    color: black;
+    font-weight: bold;
+}
+.yerba-1kg-precio{
+    list-style: none;
+}
+.descripcion-precio-yerba-1kg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    color: black;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.descripcion-yerba-1kg-completa{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 140%;
+    color: black;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.descripcion-yerba-medio-kg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 250%;
+    color: black;
+    font-weight: bold;
+}
+.yerba-medio-kg-precio{
+    list-style: none;
+    margin-top: 9%;
+}
+.descripcion-precio-yerba-medio-kg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+    color: black;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.descripcion-yerba-medio-kg-completa{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 140%;
+    color: black;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.titulo-nuevos-productos{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.pie-de-pagina{
+    background-color: #3D8361;
+    color: #EEF2E6;
+    font-size: 100%;
+    margin-top: 5%;
+    background-image: linear-gradient(to top, #829460, #3D8361);
+}
+
+.lista-pie{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.logo-pie-de-pagina{
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.nombre-pie{
+    color: #000;
+    justify-content: center;
+    font-size: 50px;
+}

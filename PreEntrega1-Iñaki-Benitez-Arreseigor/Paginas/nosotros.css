@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{background-color: #F3EFCC;
+
+}
+
+.encabezado{
+    background-color: #3D8361;
+    color: #EEF2E6;
+    font-size: 30px;
+    background-image: linear-gradient(to bottom, #829460, #3D8361);
+}
+.lista-encabezado{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    justify-content: space-around;
+    list-style: none;
+}
+.titulo-nombre{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.seccion-origen{
+    display: flex;
+    justify-content:flex-start
+}
+
+.div-origen{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+    font-size: 20px;
+}
+.imagen-origen{
+    width: 400px;
+    margin-right: 3%;
+}
+.texto-origen{
+    width: 50%;
+    height:auto;
+    
+}
+.seccion-nosotros{
+    display: flex;
+    justify-content:flex-start;
+
+}
+
+.div-nosotros{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+    font-size: 20px;
+}
+.imagen-nosotros{
+    width: 400px;
+    margin-right: 3%;
+}
+.texto-nosotros{
+    width: 50%;
+    height:auto;
+}
+
+.seccion-dlp-a-tu-hogar{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.div-dlp-a-tu-hogar{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5%;
+}
+.imagen-dlp-a-tu-hogar{
+    width: 400px;
+    margin-right: 3%;
+}
+
+.titulo-dlp-a-tu-hogar{
+width: 80%;
+}
+
+.texto-dlp-a-tu-hogar{
+    width: 50%;
+    height:auto;
+}
+
+.lista-dlp-a-tu-hogar{
+    list-style: none;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+
+.pie-de-pagina{
+    background-color: #3D8361;
+    color: #EEF2E6;
+    font-size: 100%;
+    margin-top: 5%;
+    background-image: linear-gradient(to top, #829460, #3D8361);
+}
+
+.lista-pie{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.logo-pie-de-pagina{
+    justify-content: flex-start;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.nombre-pie{
+    color: #000;
+    justify-content: center;
+    font-size: 50px;
+}

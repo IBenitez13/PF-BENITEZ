@@ -6,10 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-html{background-color: #F3EFCC;
-
-}
-
 .encabezado{
     background-color: #3D8361;
     color: #EEF2E6;
@@ -17,34 +13,14 @@ html{background-color: #F3EFCC;
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to bottom, #829460, #3D8361);
 }
-.lista-encabezado{
-    display: flex;
-    justify-content: center;
-    padding: 20px 0px;
-    justify-content: space-around;
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
+
+.logo-mate{
+    height: 75px;
+    width: 75px;
 }
 
-.lista-encabezado a:hover{
-    display: block;
-    background-color: #F3EFCC;
-    transition-property: all;
-    transition-duration: 1s;
-    text-decoration: underline;
-    transform: scale(1.1);
-    border: solid 2px black;
-    font-family: 'Poppins', sans-serif;
-}
-
-.titulo-nombre{
-    font-size: 70px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-}
 .slogan{
-    font-size: 40px;
+    font-size: 200%;
     display: flex;
     justify-content: center;
     color: #000;
@@ -53,62 +29,47 @@ html{background-color: #F3EFCC;
 
 .seccion-sociales{
     color:#525E75; 
-    background-color:#f1ddbf;
     display: flex;
     justify-content: center;
 }
 
-.seccion-fotos{
-    width: 80%;
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
+.contenedor-nombre{
     align-items: center;
+    margin-top: 2%;
 }
 
-.logo1{
-    width: 170px;
-    height: 190px;
-}
-
-.seccion-elegirnos{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 8%
-}
-.mate-cebado{
-    width: 242px;
-    height: 100%;
-    flex-wrap: wrap;
-}
-.mate-y-yerba{
-    width: 242px;
-    height: 100%; 
-    flex-wrap: wrap;
-}
-.elegirnos{
-    font-size: 45px;
-    display: flex;
-    justify-content: center ;
+.nombre{
+    font-size: 300%;
     color: #000;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
     font-family: 'Poppins', sans-serif;
 }
 
+.carrusel-dimension{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+
+/* .elegirnos{
+    font-size: 200%;
+    display: flex;
+    justify-content: start ;
+    color: #000;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+} */
+
 .seccion-titulo-preparar{
-    font-size: 43px;
     justify-content:center ;
     display: flex;
     color: black;
     background-color: #D6CDA4;
     flex-wrap: wrap;
     background-size: cover;
-    margin: 8%;
+    margin: 5%;
 }
 
 .seccion-preparar{
@@ -119,45 +80,8 @@ html{background-color: #F3EFCC;
     list-style: circle;
 }
 
-.pie-de-pagina{
-    background-color: #3D8361;
-    color: #EEF2E6;
-    font-size: 100%;
-    margin-top: 5%;
-    background-image: linear-gradient(to top, #829460, #3D8361);
-}
-
-.lista-pie{
-    display: flex;
-    padding: 20px 0px;
-    justify-content: space-around;
-    list-style: none;
-    font-family: 'Poppins', sans-serif;
-}
-
-.logo-pie-de-pagina{
-    justify-content: flex-start;
-    width: 100px;
-    height: 100px;
-    display: flex;
-}
-
-.nombre-pie{
-    color: #000;
-    justify-content: center;
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-
-
-
 /* Mobile */
 @media only screen and (max-width:800px){
-    html{
-        background-color: #F3EFCC
-    }
 
     .encabezado{
         background-color: #3D8361;
@@ -167,16 +91,6 @@ html{background-color: #F3EFCC;
         background-image: linear-gradient(to bottom, #829460, #3D8361);
     }
 
-    .lista-encabezado a:hover{
-        display: block;
-        background-color: #F3EFCC;
-        transition-property: all;
-        transition-duration: 1s;
-        text-decoration: underline;
-        transform: scale(1.1);
-        border: solid 2px black;
-        font-family: 'Poppins', sans-serif;
-    }
 
     .titulo-nombre{
         font-size: 50px;
@@ -188,20 +102,30 @@ html{background-color: #F3EFCC;
 
     .seccion-sociales{
         color:#525E75; 
-        background-color:#f1ddbf;
         display: flex;
         justify-content: center;
         width: auto;
         height: auto;
     }
 
+    .contenedor-nombre{
+        width: auto;
+        height: auto;
+    }
+
     .slogan{
-        font-size: 40Spx;
+        font-size: 120%;
         display: flex;
-        justify-content: center;
+        justify-content: end;
         color: #000;
         font-family: 'Poppins', sans-serif;
     }
+
+    .nombre{
+        font-size: 150%;
+        color: #000;
+    }
+    
 
     .logo1{
         justify-content: flex-start;
@@ -269,38 +193,6 @@ html{background-color: #F3EFCC;
         color: #000;
         font-family: 'Poppins', sans-serif;
         list-style: circle;
-    }
-
-
-    .pie-de-pagina{
-        background-color: #3D8361;
-        color: #EEF2E6;
-        font-size: 100%;
-        margin-top: 5%;
-        font-family: 'Poppins', sans-serif;
-        background-image: linear-gradient(to top, #829460, #3D8361);
-    }
-    
-    .lista-pie{
-        display: flex;
-        padding: 20px 0px;
-        justify-content: space-around;
-        list-style: none;
-        font-family: 'Poppins', sans-serif;
-    }
-    
-    .logo-pie-de-pagina{
-        justify-content: flex-start;
-        width: 50px;
-        height: 50px;
-        display: flex;
-    }
-    
-    .nombre-pie{
-        color: #000;
-        justify-content: center;
-        font-size: 21px;
-        font-family: 'Poppins', sans-serif;
     }
 
 }

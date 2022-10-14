@@ -1,99 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Inicio</title>
     <link rel="shortcut icon" href="imagenes/logo-mate.png" type="image/x-icon">
 
 </head>
+
 <body>
-    <header class="encabezado">
-        <nav class="nav">
-            <ul class="lista-encabezado">
-                <li>
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="productos.html">Productos</a>
-                </li>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="ubicacion.html">Ubicacion</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light encabezado">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo-mate" src="imagenes/logo-mate.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="productos.html">Productos</a>
+                        <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-
-<section>
-<h2 class="titulo-nombre">Templanza</h2>
-</section>
-
-<section class="seccion-sociales">
-    <div class="seccion-fotos">
-        <p class="slogan">Yerba de verdad</p>
-        <div class="logo">
-            <img class="logo1" src="imagenes/logo-mate.png" alt="logo">
+    <section class="seccion-sociales">
+        <div class="contenedor-nombre">
+            <div>
+                <p class="nombre">Templanza 🧉</p>
+                <p class="slogan">Yerba de verdad</p>
+            </div>
         </div>
-        <div class="redes">
-            <img class="redes-sociales" src="imagenes/redes.png" alt="Redes sociales">
+    </section>
+
+    <main>
+        <section>
+            <div id="carouselExampleDark" class="carousel carousel-light slide carrusel-dimension"
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="imagenes/Mate cebado.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="imagenes/mate-torpedo-yerba.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagenes/mate-camionero.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- <section>
+            <div>
+                <div>
+                    <p class="elegirnos"> Somos una empresa que se dedica al cultivo, cuidado, cosecha, y comercializacion de
+                        yerba mate.
+                        Mas de 30 años de trabajo nos respaldan para crear un producto de gran calidad.
+                    </p>
+                </div>
+            </div>
+        </section> -->
+
+    </main>
+
+    <section class="seccion-titulo-preparar">
+        <h2>Pasos para preparar un buen mate :)</h2>
+    </section>
+
+    <section class="seccion-preparar">
+        <div>
+            <ul>
+                <li>1-Calentar agua, luego colocarla en un termo. Tenga en cuenta que el agua no debe dejarse hervir
+                </li>
+                <li>2-Vierta yerba dentro del mate hasta ¾ partes</li>
+                <li>3-Tape con una mano la boca del mate, inviértalo y agítelo unos instantes. Vuelva el objeto a su
+                    posición normal. Cuide que la yerba quede recostada sobre una de las paredes del mate y además se
+                    forme un pequeño agujero.</li>
+                <li>4-Para comenzar el mate, coloque agua tibia suavemente en el hueco que quedó en la yerba. Deje
+                    reposar unos instantes.</li>
+                <li>5-Con la bombilla compacte la yerba formando una especie de montañita de yerba seca</li>
+                <li>6-Introduzca la bombilla en el hueco húmedo.</li>
+                <li>7-Una vez que hizo estos pasos puede comenzar a cebar el mate. Procure no mover la bombilla y cebar
+                    siempre en el mismo lugar, esto permitirá que no moje toda la yerba y así disfrutará más tiempo de
+                    unos exquisitos mates.</li>
+            </ul>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="seccion-elegirnos">
-    <div>
-        <img class="mate-cebado" src="imagenes/mate-cebado-rio.jpg" alt="Mate cebado">
-    </div>
-    <div>
-        <p class="elegirnos"> Somos una empresa que se dedica al cultivo, cuidado, cosecha, y comercializacion de yerba mate.
-            Mas de 30 años de trabajo nos respaldan para crear un producto de gran calidad.
-        </p>
-    </div>
-    <div>
-        <img class="mate-y-yerba" src="imagenes/mate-rio.jpg" alt="Mate y rio">
-    </div>
-</section>
+<footer class="text-center text-lg-start bg-light text-muted">
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>TEMPLANZA
+            </h6>
+            <p>
+              Yerba de verdad!
+            </p>
+            <p>De la planta a tu hogar</p>
+            <p>Todos los derechos reservador a Templanza S.A.</p>
+          </div>
 
-<section class="seccion-titulo-preparar">
-    <div>
-        <h4>Pasos para preparar un buen mate</h2>
-    </div>
-</section>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Secciones
+            </h6>
+            <p>
+              <a href="index.html" class="text-reset">Inicio</a>
+            </p>
+            <p>
+              <a href="nosotros.html" class="text-reset">Nosotros</a>
+            </p>
+            <p>
+              <a href="productos.html" class="text-reset">Productos</a>
+            </p>
+            <p>
+              <a href="ubicacion.html" class="text-reset">Ubicacion</a>
+            </p>
+            <p>
+                <a href="contacto.html" class="text-reset">Contacto</a>
+              </p>
+          </div>
 
-<section class="seccion-preparar">
-    <div>
-        <ul>
-            <li>1-Calentar agua, luego colocarla en un termo. Tenga en cuenta que el agua no debe dejarse hervir</li>
-            <li>2-Vierta yerba dentro del mate hasta ¾ partes</li>
-            <li>3-Tape con una mano la boca del mate, inviértalo y agítelo unos instantes. Vuelva el objeto a su posición normal. Cuide que la yerba quede recostada sobre una de las paredes del mate y además se forme un pequeño agujero.</li>
-            <li>4-Para comenzar el mate, coloque agua tibia suavemente en el hueco que quedó en la yerba. Deje reposar unos instantes.</li>
-            <li>5-Con la bombilla compacte la yerba formando una especie de montañita de yerba seca</li>
-            <li>6-Introduzca la bombilla en el hueco húmedo.</li>
-            <li>7-Una vez que hizo estos pasos puede comenzar a cebar el mate. Procure no mover la bombilla y cebar siempre en el mismo lugar, esto permitirá que no moje toda la yerba y así disfrutará más tiempo de unos exquisitos mates.</li>
-        </ul>
-    </div>
-</section>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">contacto</h6>
+            <p><i class="fas fa-home me-3"></i> Oberá Misiones Argentina</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              yerbatemplanza@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +54 9 3447 414315</p>
+            <p><i class="fas fa-print me-3"></i> +54 9 3447 462946</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<footer class="pie-de-pagina">
-    <nav class="nav-pie">
-        <ul class="lista-pie">
-            <li><img class="logo-pie-de-pagina" src="imagenes/logo-mate.png" alt="logo"></li>
-            <li class="nombre-pie">Templanza |
-            De la planta a tu hogar
-            </li>
-            <li><img class="logo-pie-de-pagina" src="imagenes/logo-mate.png" alt="Logo mate"></li>
-        </ul>
-    </nav>
-</footer>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="index.html">Templanza SA</a>
+    </div>
+  </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+
+
 
 </body>
+
+
+
+
+
 
 </html>

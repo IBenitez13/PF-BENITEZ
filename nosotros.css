@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-html{background-color: #F3EFCC;
-
-}
 
 .encabezado{
     background-color: #3D8361;
@@ -21,6 +18,13 @@ html{background-color: #F3EFCC;
     justify-content: space-around;
     list-style: none;
 }
+
+.logo-mate{
+    height: 75px;
+    width: 75px;
+
+}
+
 .titulo-nombre{
     font-size: 70px;
     display: flex;
@@ -124,4 +128,142 @@ width: 30%;
     color: #000;
     justify-content: center;
     font-size: 50px;
+}
+
+
+
+@media only screen and (max-width:800px){
+
+    .encabezado{
+        background-color: #3D8361;
+        color: #EEF2E6;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        background-image: linear-gradient(to bottom, #829460, #3D8361);
+    }
+
+    .lista-encabezado a:hover{
+        display: block;
+        background-color: #F3EFCC;
+        transition-property: all;
+        transition-duration: 1s;
+        text-decoration: underline;
+        transform: scale(1.1);
+        border: solid 2px black;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .titulo-nombre{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .div-origen{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 5%;
+    }
+
+    .imagen-origen{
+        width: 50%;
+        height: 60%;
+        margin-right: 3%;
+        display: none;
+    }
+
+    .titulo-origen{
+        width: 15%;
+        font-size: 100%;
+        margin-right: 4%;
+    }
+
+    .texto-origen{
+        width: 100%;
+        height:auto;
+        font-size: 50%;
+    }
+
+    .div-nosotros{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    .imagen-nosotros{
+        width: 50%;
+        height: 60%;
+        margin-right: 3%;
+        display: none;
+    }
+
+    .titulo-nosotros{
+        width: 20%;
+        font-size: 80%;
+        margin-right: 4%;
+    }
+
+    .texto-nosotros{
+        width: 100%;
+        height:auto;
+        font-size: 50%;
+    }
+
+
+    .div-dlp-a-tu-hogar{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 5%;
+    }
+    .imagen-dlp-a-tu-hogar{
+        width: 30%;
+        height: 75%;
+        margin-right: 3%;
+        display: none;
+    }
+    
+    .titulo-dlp-a-tu-hogar{
+    width: 25%;
+    font-size: 100%;
+    }
+    
+
+    .lista-dlp-a-tu-hogar{
+        list-style: none;
+        justify-content: flex-start;
+        font-size: 80%;
+    }
+
+
+    .pie-de-pagina{
+        background-color: #3D8361;
+        color: #EEF2E6;
+        font-size: 100%;
+        margin-top: 5%;
+        font-family: 'Poppins', sans-serif;
+        background-image: linear-gradient(to top, #829460, #3D8361);
+    }
+    
+    .lista-pie{
+        display: flex;
+        padding: 20px 0px;
+        justify-content: space-around;
+        list-style: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .logo-pie-de-pagina{
+        justify-content: flex-start;
+        width: 50px;
+        height: 50px;
+        display: flex;
+    }
+    
+    .nombre-pie{
+        color: #000;
+        justify-content: center;
+        font-size: 21px;
+        font-family: 'Poppins', sans-serif;
+    }
 }

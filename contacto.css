@@ -4,23 +4,21 @@
     box-sizing: border-box;
 }
 
-html{background-color: #F3EFCC;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .encabezado{
     background-color: #3D8361;
     color: #EEF2E6;
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to bottom, #829460, #3D8361);
 }
-.lista-encabezado{
-    display: flex;
-    justify-content: center;
-    padding: 20px 0px;
-    justify-content: space-around;
-    list-style: none;
+
+.logo-mate{
+    height: 75px;
+    width: 75px;
 }
+
 .titulo-nombre{
     font-size: 70px;
     display: flex;
@@ -111,4 +109,43 @@ textarea{
     color: #000;
     justify-content: center;
     font-size: 50px;
+}
+
+/* Mobile */
+@media only screen and (max-width:800px){
+
+    .encabezado{
+        background-color: #3D8361;
+        color: #EEF2E6;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        background-image: linear-gradient(to bottom, #829460, #3D8361);
+    }
+
+
+    .titulo-nombre{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .titulo-nombre{
+        font-size: 250%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lista-preguntas{
+        list-style: none;
+        color: black;
+        font-size: 150%;
+        justify-content: center;
+    }
+
+    .segunda-pregunta{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 1%;
+    }
 }

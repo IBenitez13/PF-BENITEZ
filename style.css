@@ -91,6 +91,10 @@
         background-image: linear-gradient(to bottom, #829460, #3D8361);
     }
 
+    .logo-mate{
+        height: 40px;
+        width: 40px;
+    }
 
     .titulo-nombre{
         font-size: 50px;
